@@ -1,0 +1,18 @@
+.user-table{
+    width: 99%;
+    border-collapse: unset;
+}
+
+.user-table thead tr{
+    background-color: aliceblue;
+    padding: 8px;
+    text-align: center;
+}
+
+.user-table tbody{
+    background-color: rgb(29, 28, 28);
+    padding: 8px;
+    text-align: right;
+    color:aliceblue;
+    border-bottom: 1px solid #dddddd;
+}

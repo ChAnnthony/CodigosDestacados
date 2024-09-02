@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/componente-01.esm.js"></script>
+    <script nomodule src="/build/componente-01.js"></script>
+  </head>
+  <body>
+    <my-product></my-product>
+    
+    <custom-button color="info">Mi boton</custom-button>
+    <button onclick="changeColor()">Cambiar Color</button>
+    <custom-select></custom-select>
+
+    <my-table></my-table>
+    
+    <my-perfil></my-perfil>
+
+    <script>
+      const customButton = document.querySelector('custom-button');
+      const changeColor = () => {
+
+        //customButton.setAttribute('color','danger')
+        if(customButton.color=='danger'){
+          customButton.color='info';          
+        }else{
+          customButton.color='danger';   
+        }
+      }
+
+      const customSelect =document.querySelector('custom-select');
+      customSelect.options=[{id:'1',value:'Option1'},
+                          {id:'2',value:'Option2'},
+                          {id:'3',value:'Option3'}];
+
+      customSelect.label='Mi Menu ';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+button{
+    background-color: rgb(212, 135, 222);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    padding: 2em 1.5em;
+}
+
+button.info{
+    background-color: aqua;
+    color: rgb(230, 65, 19);
+}
+
+button.danger{
+    background-color: rgb(48, 194, 48);
+    color: azure;
+}

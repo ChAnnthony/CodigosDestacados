@@ -1,0 +1,18 @@
+button{
+    background-color: darkorange;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: black;
+}
+
+table{
+    width: 75%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: bisque;
+    padding: 8px;
+    text-align: center;
+}
